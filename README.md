@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Things to create for Drill API:
 
-Things you may want to cover:
+* GET /api/drills
 
-* Ruby version
+* GET /api/drills/:id
 
-* System dependencies
+* POST /api/drills
 
-* Configuration
+* PUT /api/drills/:id
 
-* Database creation
+* DELETE /api/drills/:id
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# create Drill Model
+  - title
+  - description
+  - category
+  - upvote/downvote  not sure how to structure that yet
+  
