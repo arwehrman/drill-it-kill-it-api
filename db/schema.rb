@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20180520183425) do
     t.string "description"
     t.string "category"
     t.string "level"
+    t.integer "likes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

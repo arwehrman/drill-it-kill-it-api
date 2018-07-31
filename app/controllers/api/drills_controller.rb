@@ -42,7 +42,7 @@ private
   end
 
   def drill_params
-    params.require(:drill).permit(:title, :description, :category, :level)
+    params.require(:drill).permit(:title, :description, :category, :level, :likes)
   end
 
 end

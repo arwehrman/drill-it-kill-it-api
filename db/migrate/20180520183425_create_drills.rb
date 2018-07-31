@@ -5,6 +5,7 @@ class CreateDrills < ActiveRecord::Migration[5.1]
       t.string :description
       t.string :category
       t.string :level
+      t.integer :likes
       t.timestamps
     end
   end
