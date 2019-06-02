@@ -11,6 +11,7 @@ gem 'puma', '~> 3.7'
 gem 'rack-cors'
 gem "nokogiri", ">= 1.8.5"
 gem 'pg'
+gem 'bcrypt'
 
 group :development, :test do
   
