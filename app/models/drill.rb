@@ -1,2 +1,4 @@
 class Drill < ApplicationRecord
+    
+    
 end
