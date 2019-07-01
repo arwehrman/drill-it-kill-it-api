@@ -1,12 +1,13 @@
 
+
 development:
   adapter: postgresql
   database: drill_it_kill_it_developement
   pool: 5
   timeout: 5000
   host: localhost
-  username: drillit
-  password: password01
+  username: ENV["DEV_USERNAME"]
+  password: ENV["DEV_PASSWORD"]
 
 production:
   adapter: postgresql
