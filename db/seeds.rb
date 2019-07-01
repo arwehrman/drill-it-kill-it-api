@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Drill.create([
+    {title: 'Test 1', category: 'defense', description: 'Testing Seed Data 1'},
+    {title: 'Test 2', category: 'offense', description: 'Testing Seed Data 2'},
+    {title: 'Test 3', category: 'defense', description: 'Testing Seed Data 3'},
+    {title: 'Test 4', category: 'offense', description: 'Testing Seed Data 4'},
+    
+    ])
