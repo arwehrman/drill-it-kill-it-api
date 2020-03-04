@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.6.1'
 gem 'rails', '~> 5.1.6'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 gem 'rack-cors'
 gem "nokogiri", ">= 1.8.5"
 gem 'pg'
